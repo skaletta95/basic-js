@@ -19,10 +19,6 @@ function calculateHanoi(disksNumber, turnsSpeed) {
   const speedInSeconds = turnsSpeed / 3600;
   const seconds = Math.floor(turns / speedInSeconds);
 
-  // let resultObject = { turns: 0, seconds: 427 };
-  // resultObject['turns'] = turns;
-  // resultObject['seconds'] = seconds;
-
   return { turns, seconds};
 }
 
